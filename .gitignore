@@ -1,0 +1,25 @@
+# Python 가상환경
+.venv/
+venv/
+ENV/
+
+# Python 캐시 파일
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE 설정 파일
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 로그 파일
+*.log
+
+# 크롤링 결과 파일
+*.json
+
+# 시스템 파일
+.DS_Store
+Thumbs.db 
