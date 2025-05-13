@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <!-- 배경 -->
+  <rect width="1200" height="900" fill="#f8f9fa" />
+  
+  <!-- 모바일 화면 프레임 - 웹앱 스타일로 최적화 -->
+  <rect x="350" y="50" width="500" height="800" rx="8" fill="#ffffff" filter="drop-shadow(0 4px 12px rgba(0, 0, 0, 0.05))" />
+  
+  <!-- 상단 헤더 -->
+  <rect x="350" y="50" width="500" height="70" rx="8" fill="#ffffff" />
+  <text x="600" y="95" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333333" text-anchor="middle">자기소개서 작성</text>
+  
+  <!-- 진행 단계 표시 -->
+  <circle cx="600" cy="140" r="20" fill="#ffffff" stroke="#dddddd" stroke-width="2" />
+  <text x="600" y="147" font-family="Arial, sans-serif" font-size="16" fill="#dddddd" text-anchor="middle">1</text>
+  <circle cx="670" cy="140" r="20" fill="#5DC2BA" />
+  <text x="670" y="147" font-family="Arial, sans-serif" font-size="16" fill="#ffffff" text-anchor="middle">2</text>
+  <line x1="620" y1="140" x2="650" y2="140" stroke="#dddddd" stroke-width="2" />
+  
+  <!-- 자기소개서 입력 필드들 -->
+  <!-- 지원동기 섹션 -->
+  <text x="380" y="190" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333">지원동기 (500자 내외)</text>
+  <rect x="380" y="200" width="440" height="80" rx="4" fill="#f5f5f5" stroke="#e0e4e8" stroke-width="1" />
+  <text x="400" y="240" font-family="Arial, sans-serif" font-size="14" fill="#aaaaaa">해당 내용을 입력하세요.</text>
+  
+  <!-- 성격 및 장단점 섹션 -->
+  <text x="380" y="310" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333">성격 및 장단점 (500자 내외)</text>
+  <rect x="380" y="320" width="440" height="80" rx="4" fill="#f5f5f5" stroke="#e0e4e8" stroke-width="1" />
+  <text x="400" y="360" font-family="Arial, sans-serif" font-size="14" fill="#aaaaaa">해당 내용을 입력하세요.</text>
+  
+  <!-- 위기 극복 사례 섹션 -->
+  <text x="380" y="430" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333">위기 극복 사례 (1,000자 내외)</text>
+  <rect x="380" y="440" width="440" height="80" rx="4" fill="#f5f5f5" stroke="#e0e4e8" stroke-width="1" />
+  <text x="400" y="480" font-family="Arial, sans-serif" font-size="14" fill="#aaaaaa">해당 내용을 입력하세요.</text>
+  
+  <!-- 입사 후 포부 섹션 -->
+  <text x="380" y="550" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333">입사 후 포부 (300자 내외)</text>
+  <rect x="380" y="560" width="440" height="80" rx="4" fill="#f5f5f5" stroke="#e0e4e8" stroke-width="1" />
+  <text x="400" y="600" font-family="Arial, sans-serif" font-size="14" fill="#aaaaaa">해당 내용을 입력하세요.</text>
+  
+  <!-- 포트폴리오 섹션 -->
+  <text x="380" y="670" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333333">포트폴리오</text>
+  
+  <!-- 파일 업로드 & 링크 입력 버튼 -->
+  <rect x="380" y="690" width="210" height="60" rx="4" fill="#ffffff" stroke="#dddddd" stroke-width="2" />
+  <text x="485" y="725" font-family="Arial, sans-serif" font-size="14" fill="#555555" text-anchor="middle">파일 업로드</text>
+  
+  <rect x="610" y="690" width="210" height="60" rx="4" fill="#ffffff" stroke="#dddddd" stroke-width="2" />
+  <text x="715" y="725" font-family="Arial, sans-serif" font-size="14" fill="#555555" text-anchor="middle">링크 입력</text>
+  
+  <!-- 제출하기 버튼 -->
+  <rect x="380" y="780" width="440" height="50" rx="4" fill="#f5f5f5" stroke="#dddddd" stroke-width="1" />
+  <text x="600" y="810" font-family="Arial, sans-serif" font-size="16" fill="#aaaaaa" text-anchor="middle">제출하기</text>
+  
+  <!-- 하단 프로그레스 바 -->
+  <rect x="550" y="850" width="100" height="6" rx="3" fill="#333333" />
+  
+  <!-- 서비스 로고 아이콘 (상단 좌측 배치) -->
+  <g transform="translate(370, 85)">
+    <!-- 민트색 로고 배경 -->
+    <path d="M18,0 L18,0 C27.9411,0 36,8.0589 36,18 L36,18 C36,27.9411 27.9411,36 18,36 L18,36 C8.0589,36 0,27.9411 0,18 L0,18 C0,8.0589 8.0589,0 18,0 Z" fill="#5DC2BA" />
+    <!-- 십자가 심볼 -->
+    <path d="M25.2,14.4 L21.6,14.4 L21.6,10.8 C21.6,10.1372 21.0628,9.6 20.4,9.6 L15.6,9.6 C14.9372,9.6 14.4,10.1372 14.4,10.8 L14.4,14.4 L10.8,14.4 C10.1372,14.4 9.6,14.9372 9.6,15.6 L9.6,20.4 C9.6,21.0628 10.1372,21.6 10.8,21.6 L14.4,21.6 L14.4,25.2 C14.4,25.8628 14.9372,26.4 15.6,26.4 L20.4,26.4 C21.0628,26.4 21.6,25.8628 21.6,25.2 L21.6,21.6 L25.2,21.6 C25.8628,21.6 26.4,21.0628 26.4,20.4 L26.4,15.6 C26.4,14.9372 25.8628,14.4 25.2,14.4 Z" fill="white" />
+  </g>
+</svg>
