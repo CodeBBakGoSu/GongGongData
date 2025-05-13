@@ -18,7 +18,7 @@ __pycache__/
 *.log
 
 # 크롤링 결과 파일
-*.json
+
 
 # 시스템 파일
 .DS_Store
